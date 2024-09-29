@@ -11,9 +11,15 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        parchment: '#F5DEB3', // Parchment-like background color
+        mysticBrown: '#3b2f2f', // Mystic brown for text and borders
+      },
+      fontFamily: {
+        uncial: ['Uncial Antiqua', 'cursive'],
       },
     },
   },
   plugins: [],
 };
+
 export default config;
